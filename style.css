@@ -60,7 +60,7 @@ header {
 }
 
 .nav-bar > ul > li > a:hover {
-  color: #02a63b;
+  color: #39db67;
 }
 
 .background-img {
@@ -131,7 +131,7 @@ header {
 .conteudo-informativo {
   display: flex;
   flex-wrap: wrap;
-  margin: 60px 50px;
+  margin: 100px 50px;
   justify-content: center;
   align-items: center;
   gap: 50px;
@@ -162,7 +162,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  background-color: #525252;
+  background-color: #d9d7d7;
   border-radius: 20px;
 }
 
@@ -179,8 +179,8 @@ header {
   cursor: pointer;
   margin-top: 30px;
   transition: 0.7s;
-  border: 2px solid #02a63b;
-  background: #02a63b;
+  border: 2px solid #2d2d2f;
+  background: #2d2d2f;
 }
 
 .button-inscri-curso-conducao:hover {
