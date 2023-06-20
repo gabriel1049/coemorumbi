@@ -162,14 +162,15 @@ header {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  background-color: #d9d7d7;
+  background-image: url('./img/fivemback.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40%;
   border-radius: 20px;
+  height: 500px;
 }
 
-.img-curso-conducao > img {
-  width: 350px;
-  height: 350px;
-}
+
 
 .button-inscri-curso-conducao {
   padding: 10px 30px;
@@ -185,6 +186,24 @@ header {
 
 .button-inscri-curso-conducao:hover {
   transform: scale(1.1);
+}
+
+.texto-curso-conducao {
+  width: 100%;
+  height: 200px;
+  background-color: #494949;
+  align-items: center;
+}
+
+.texto-curso-conducao > h2 {
+  font-size: 30px;
+  color: #FFF;
+}
+
+.texto-curso-conducao > h3 {
+  font-size: 20px;
+  color: #FFF;
+  text-shadow: 5px 5px 15px 5px #000000;
 }
 
 
