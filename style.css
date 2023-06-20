@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #FFF;
+  font-family: "Poppins";
+}
+
+.aviso-top {
+  text-align: center;
+  width: 100%;
+  background-color: #525252;
+}
+
+.aviso-top > h1 {
+  color: #ececec;
+  font-size: 14px;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  background-color: transparent;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+.logo-coe > img {
+  width: 80px;
+  height: 80px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-bar > ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 60px;
+}
+
+.nav-bar > ul > li {
+  list-style: none;
+  text-align: center;
+}
+
+.nav-bar > ul > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #FFF;
+  text-align: center;
+  transition: 0.8s;
+}
+
+.nav-bar > ul > li > a:hover {
+  color: #02a63b;
+}
+
+.background-img {
+  height: 800px;
+  background-image: url("./img/coebackground.svg");
+  background-position: center;
+  display: flex;
+  margin-top: -100px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo-coe {
+  margin-top:-30px;
+  text-align: center;
+}
+
+.titulo-coe > h1 {
+  font-size: 70px;
+  color: #ececec;
+}
+
+.seletor-manuais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 300px;
+}
+
+.inscri-button {
+  padding: 20px 10px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.inscri-button {
+  padding: 10px 30px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #02a63b;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.8s;
+}
+
+.manu-button {
+  padding: 10px 30px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #02a63b;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.8s;
+}
+.manu-button:hover{
+  transform: scale(1.1);
+  background: #02a63b;
+}
+.inscri-button:hover {
+  transform: scale(1.1);
+  background: #02a63b;
+}
+
+.conteudo-informativo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.texto-informativo > h2 {
+  font-size: 40px;
+}
+
+.texto-informativo > p {
+  font-size: 20px;
+}
+
+.cursos-section {
+  margin: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.cursos-section > h1 {
+  font-size: 50px;
+  color: #2d2d2f;
+}
+
+.curso-coe-conducao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #525252;
+  border-radius: 20px;
+}
+
+.img-curso-conducao > img {
+  width: 350px;
+  height: 350px;
+}
+
+.button-inscri-curso-conducao {
+  padding: 10px 30px;
+  font-size: 30px;
+  color: #FFF;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: 0.7s;
+  border: 2px solid #02a63b;
+  background: #02a63b;
+}
+
+.button-inscri-curso-conducao:hover {
+  transform: scale(1.1);
+}
+
+
