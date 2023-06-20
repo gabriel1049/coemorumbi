@@ -5,6 +5,28 @@
   outline: none;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
 body {
   background-color: #FFF;
   font-family: "Poppins";
@@ -24,10 +46,13 @@ body {
 header {
   display: flex;
   height: 100px;
-  background-color: transparent;
   justify-content: space-around;
   align-items: center;
   z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 .logo-coe > img {
   width: 80px;
@@ -102,27 +127,16 @@ header {
   padding: 10px 30px;
   font-size: 30px;
   cursor: pointer;
-  border-radius: 10px;
-  border: 2px solid #02a63b;
-  background-color: transparent;
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  border: 0px;
   color: #fff;
   transition: 0.8s;
 }
 
-.manu-button {
-  padding: 10px 30px;
-  font-size: 30px;
-  cursor: pointer;
-  border-radius: 10px;
-  border: 2px solid #02a63b;
-  background-color: transparent;
-  color: #fff;
-  transition: 0.8s;
-}
-.manu-button:hover{
-  transform: scale(1.1);
-  background: #02a63b;
-}
 .inscri-button:hover {
   transform: scale(1.1);
   background: #02a63b;
@@ -191,18 +205,22 @@ header {
 .texto-curso-conducao {
   width: 100%;
   height: 200px;
-  background-color: #494949;
   align-items: center;
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(9.2px);
+  -webkit-backdrop-filter: blur(9.2px);
 }
 
 .texto-curso-conducao > h2 {
   font-size: 30px;
   color: #FFF;
+  text-shadow: 2px 2px 8px #000000;
 }
 
 .texto-curso-conducao > h3 {
   font-size: 20px;
   color: #FFF;
+  font-weight: 400;
   text-shadow: 5px 5px 15px 5px #000000;
 }
 
